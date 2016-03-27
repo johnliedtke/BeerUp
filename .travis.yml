@@ -1,4 +1,5 @@
 language: objective-c
+xcode_sdk: iphonesimulator9.2
 script: 
 - xcodebuild -project BeerUp.xcodeproj -sdk iphonesimulator ONLY_ACTIVE=NO
 - xctool test -project BeerUp.xcodeproj -scheme BeerUp -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
