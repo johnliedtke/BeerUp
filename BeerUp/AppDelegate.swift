@@ -8,16 +8,23 @@
 
 import UIKit
 import CoreData
+import SugarRecordCoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
         return true
+    }
+    
+    func coreDataStorage() -> CoreDataDefaultStorage {
+        let store = CoreData.Store.Named("db")
+        let bundle = NSBundle(forClass: self.classForCoder)
+        let model = CoreData.ObjectModel.Merged([bundle])
+        let defaultStorage = try! CoreDataDefaultStorage(store: store, model: model)
+        return defaultStorage
     }
 
     func applicationWillResignActive(application: UIApplication) {
