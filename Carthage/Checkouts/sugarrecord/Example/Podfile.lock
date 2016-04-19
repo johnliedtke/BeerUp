@@ -1,0 +1,33 @@
+PODS:
+  - Realm (0.98.6):
+    - Realm/Headers (= 0.98.6)
+  - Realm/Headers (0.98.6)
+  - RealmSwift (0.98.6):
+    - Realm (= 0.98.6)
+  - Result (1.0.2)
+  - SnapKit (0.18.0)
+  - SugarRecord (2.2.3):
+    - SugarRecord/CoreData (= 2.2.3)
+    - SugarRecord/Realm (= 2.2.3)
+  - SugarRecord/CoreData (2.2.3):
+    - Result (~> 1.0)
+  - SugarRecord/Realm (2.2.3):
+    - RealmSwift (~> 0.98)
+    - Result (~> 1.0)
+
+DEPENDENCIES:
+  - SnapKit
+  - SugarRecord (from `../`)
+
+EXTERNAL SOURCES:
+  SugarRecord:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Realm: 44803f35418c5d89b27825a564247fcd190de37e
+  RealmSwift: c7239c52c83f8c43525a5269ba7be1694da33afc
+  Result: dd3dd71af3fa2e262f1a999e14fba2c25ec14f16
+  SnapKit: e1f090a6d47b1dd4bd89b73f72b6746a7835ef3c
+  SugarRecord: c15bf95f637838389c4774d8fb560ce72b789f6b
+
+COCOAPODS: 0.39.0
