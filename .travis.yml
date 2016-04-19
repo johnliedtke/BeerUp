@@ -1,6 +1,12 @@
 language: objective-c
 osx_image: xcode7.2
 xcode_sdk: iphonesimulator9.2
+env:
+before_install:
+  - brew update
+  - brew outdated carthage || brew upgrade carthage
+before script:
+  - carthage bootstrap
 script: 
 - xcodebuild -project BeerUp.xcodeproj -sdk iphonesimulator ONLY_ACTIVE=NO
 - xctool test -project BeerUp.xcodeproj -scheme BeerUp -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
