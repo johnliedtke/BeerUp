@@ -5,7 +5,7 @@ before_install:
   - brew update
   - brew outdated carthage || brew upgrade carthage
 before_script:
-  - carthage build --platform iOS
+
 script: 
 - xcodebuild -project BeerUp.xcodeproj -sdk iphonesimulator ONLY_ACTIVE=NO
 - xctool test -project BeerUp.xcodeproj -scheme BeerUp -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
