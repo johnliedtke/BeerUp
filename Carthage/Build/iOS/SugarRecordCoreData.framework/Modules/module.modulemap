@@ -1,0 +1,3 @@
+framework module SugarRecordCoreData {
+    header "SugarRecordCoreData-Swift.h"
+}
