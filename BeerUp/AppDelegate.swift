@@ -8,7 +8,6 @@
 
 import UIKit
 import CoreData
-import SugarRecordCoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,14 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         return true
-    }
-    
-    func coreDataStorage() -> CoreDataDefaultStorage {
-        let store = CoreData.Store.Named("db")
-        let bundle = NSBundle(forClass: self.classForCoder)
-        let model = CoreData.ObjectModel.Merged([bundle])
-        let defaultStorage = try! CoreDataDefaultStorage(store: store, model: model)
-        return defaultStorage
     }
 
     func applicationWillResignActive(application: UIApplication) {

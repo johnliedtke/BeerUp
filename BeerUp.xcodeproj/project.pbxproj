@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		523667661CC43E3E0036BAE2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523667651CC43E3E0036BAE2 /* CoreData.framework */; };
+		5249D7421CCBC553007A039C /* MagicalRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5249D7411CCBC553007A039C /* MagicalRecord.framework */; };
 		526B22F91CA75E9C009C7A08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B22F81CA75E9C009C7A08 /* AppDelegate.swift */; };
 		526B22FB1CA75E9C009C7A08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B22FA1CA75E9C009C7A08 /* ViewController.swift */; };
 		526B22FE1CA75E9C009C7A08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526B22FC1CA75E9C009C7A08 /* Main.storyboard */; };
@@ -16,11 +17,8 @@
 		526B23061CA75E9D009C7A08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526B23041CA75E9D009C7A08 /* LaunchScreen.storyboard */; };
 		526B23111CA75E9D009C7A08 /* BeerUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B23101CA75E9D009C7A08 /* BeerUpTests.swift */; };
 		5278ADE01CC43A90002708A0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5278ADD51CC43A90002708A0 /* Alamofire.framework */; };
-		5278ADE41CC43A90002708A0 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5278ADD91CC43A90002708A0 /* Result.framework */; };
-		5278ADE51CC43A90002708A0 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5278ADDA1CC43A90002708A0 /* RxBlocking.framework */; };
 		5278ADE61CC43A90002708A0 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5278ADDB1CC43A90002708A0 /* RxCocoa.framework */; };
 		5278ADE71CC43A90002708A0 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5278ADDC1CC43A90002708A0 /* RxSwift.framework */; };
-		5278ADE91CC43A90002708A0 /* SugarRecordCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5278ADDE1CC43A90002708A0 /* SugarRecordCoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		523667651CC43E3E0036BAE2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5249D7411CCBC553007A039C /* MagicalRecord.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MagicalRecord.framework; path = ../Carthage/Build/iOS/MagicalRecord.framework; sourceTree = "<group>"; };
 		526B22F51CA75E9C009C7A08 /* BeerUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeerUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		526B22F81CA75E9C009C7A08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		526B22FA1CA75E9C009C7A08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,11 +46,8 @@
 		526B23101CA75E9D009C7A08 /* BeerUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerUpTests.swift; sourceTree = "<group>"; };
 		526B23121CA75E9D009C7A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5278ADD51CC43A90002708A0 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		5278ADD91CC43A90002708A0 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = ../Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
-		5278ADDA1CC43A90002708A0 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = ../Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		5278ADDB1CC43A90002708A0 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		5278ADDC1CC43A90002708A0 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		5278ADDE1CC43A90002708A0 /* SugarRecordCoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SugarRecordCoreData.framework; path = ../Carthage/Build/iOS/SugarRecordCoreData.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +57,9 @@
 			files = (
 				523667661CC43E3E0036BAE2 /* CoreData.framework in Frameworks */,
 				5278ADE01CC43A90002708A0 /* Alamofire.framework in Frameworks */,
-				5278ADE41CC43A90002708A0 /* Result.framework in Frameworks */,
-				5278ADE51CC43A90002708A0 /* RxBlocking.framework in Frameworks */,
 				5278ADE61CC43A90002708A0 /* RxCocoa.framework in Frameworks */,
+				5249D7421CCBC553007A039C /* MagicalRecord.framework in Frameworks */,
 				5278ADE71CC43A90002708A0 /* RxSwift.framework in Frameworks */,
-				5278ADE91CC43A90002708A0 /* SugarRecordCoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,13 +118,11 @@
 		5278ADEB1CC43AB8002708A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5249D7411CCBC553007A039C /* MagicalRecord.framework */,
 				523667651CC43E3E0036BAE2 /* CoreData.framework */,
 				5278ADD51CC43A90002708A0 /* Alamofire.framework */,
-				5278ADD91CC43A90002708A0 /* Result.framework */,
-				5278ADDA1CC43A90002708A0 /* RxBlocking.framework */,
 				5278ADDB1CC43A90002708A0 /* RxCocoa.framework */,
 				5278ADDC1CC43A90002708A0 /* RxSwift.framework */,
-				5278ADDE1CC43A90002708A0 /* SugarRecordCoreData.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -241,10 +233,8 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SugarRecordCoreData.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/MagicalRecord.framework",
 			);
 			outputPaths = (
 			);
@@ -420,6 +410,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/Carthage/Build/iOS/*";
 				INFOPLIST_FILE = BeerUpTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.whitemocha.BeerUpTests;
