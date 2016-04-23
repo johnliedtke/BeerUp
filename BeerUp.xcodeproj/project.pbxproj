@@ -21,7 +21,6 @@
 		5278ADE61CC43A90002708A0 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5278ADDB1CC43A90002708A0 /* RxCocoa.framework */; };
 		5278ADE71CC43A90002708A0 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5278ADDC1CC43A90002708A0 /* RxSwift.framework */; };
 		5278ADE91CC43A90002708A0 /* SugarRecordCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5278ADDE1CC43A90002708A0 /* SugarRecordCoreData.framework */; };
-		52EB58801CC4418400C58AFA /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5278ADD61CC43A90002708A0 /* ReactiveCocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,15 +47,11 @@
 		526B23101CA75E9D009C7A08 /* BeerUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerUpTests.swift; sourceTree = "<group>"; };
 		526B23121CA75E9D009C7A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5278ADD51CC43A90002708A0 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		5278ADD61CC43A90002708A0 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = ../Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
-		5278ADD71CC43A90002708A0 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
-		5278ADD81CC43A90002708A0 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		5278ADD91CC43A90002708A0 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = ../Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		5278ADDA1CC43A90002708A0 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = ../Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		5278ADDB1CC43A90002708A0 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		5278ADDC1CC43A90002708A0 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		5278ADDE1CC43A90002708A0 /* SugarRecordCoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SugarRecordCoreData.framework; path = ../Carthage/Build/iOS/SugarRecordCoreData.framework; sourceTree = "<group>"; };
-		5278ADDF1CC43A90002708A0 /* SugarRecordRealm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SugarRecordRealm.framework; path = ../Carthage/Build/iOS/SugarRecordRealm.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +65,6 @@
 				5278ADE51CC43A90002708A0 /* RxBlocking.framework in Frameworks */,
 				5278ADE61CC43A90002708A0 /* RxCocoa.framework in Frameworks */,
 				5278ADE71CC43A90002708A0 /* RxSwift.framework in Frameworks */,
-				52EB58801CC4418400C58AFA /* ReactiveCocoa.framework in Frameworks */,
 				5278ADE91CC43A90002708A0 /* SugarRecordCoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,15 +126,11 @@
 			children = (
 				523667651CC43E3E0036BAE2 /* CoreData.framework */,
 				5278ADD51CC43A90002708A0 /* Alamofire.framework */,
-				5278ADD61CC43A90002708A0 /* ReactiveCocoa.framework */,
-				5278ADD71CC43A90002708A0 /* Realm.framework */,
-				5278ADD81CC43A90002708A0 /* RealmSwift.framework */,
 				5278ADD91CC43A90002708A0 /* Result.framework */,
 				5278ADDA1CC43A90002708A0 /* RxBlocking.framework */,
 				5278ADDB1CC43A90002708A0 /* RxCocoa.framework */,
 				5278ADDC1CC43A90002708A0 /* RxSwift.framework */,
 				5278ADDE1CC43A90002708A0 /* SugarRecordCoreData.framework */,
-				5278ADDF1CC43A90002708A0 /* SugarRecordRealm.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -254,9 +244,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SugarRecordCoreData.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
 			);
 			outputPaths = (
 			);
