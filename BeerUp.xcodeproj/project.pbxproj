@@ -14,6 +14,16 @@
 		526B23031CA75E9C009C7A08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526B23021CA75E9C009C7A08 /* Assets.xcassets */; };
 		526B23061CA75E9D009C7A08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526B23041CA75E9D009C7A08 /* LaunchScreen.storyboard */; };
 		526B23111CA75E9D009C7A08 /* BeerUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B23101CA75E9D009C7A08 /* BeerUpTests.swift */; };
+		52A34B421CCD97D500C43B21 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A34B3D1CCD97D500C43B21 /* Alamofire.framework */; };
+		52A34B431CCD97D500C43B21 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52A34B3D1CCD97D500C43B21 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52A34B441CCD97D500C43B21 /* MagicalRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A34B3E1CCD97D500C43B21 /* MagicalRecord.framework */; };
+		52A34B451CCD97D500C43B21 /* MagicalRecord.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52A34B3E1CCD97D500C43B21 /* MagicalRecord.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52A34B461CCD97D500C43B21 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A34B3F1CCD97D500C43B21 /* RxBlocking.framework */; };
+		52A34B471CCD97D500C43B21 /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52A34B3F1CCD97D500C43B21 /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52A34B481CCD97D500C43B21 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A34B401CCD97D500C43B21 /* RxCocoa.framework */; };
+		52A34B491CCD97D500C43B21 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52A34B401CCD97D500C43B21 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52A34B4A1CCD97D500C43B21 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A34B411CCD97D500C43B21 /* RxSwift.framework */; };
+		52A34B4B1CCD97D500C43B21 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52A34B411CCD97D500C43B21 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +35,24 @@
 			remoteInfo = BeerUp;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52A34B4C1CCD97D500C43B21 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				52A34B4B1CCD97D500C43B21 /* RxSwift.framework in Embed Frameworks */,
+				52A34B491CCD97D500C43B21 /* RxCocoa.framework in Embed Frameworks */,
+				52A34B451CCD97D500C43B21 /* MagicalRecord.framework in Embed Frameworks */,
+				52A34B431CCD97D500C43B21 /* Alamofire.framework in Embed Frameworks */,
+				52A34B471CCD97D500C43B21 /* RxBlocking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		526B22F51CA75E9C009C7A08 /* BeerUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeerUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +66,11 @@
 		526B230C1CA75E9D009C7A08 /* BeerUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeerUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		526B23101CA75E9D009C7A08 /* BeerUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerUpTests.swift; sourceTree = "<group>"; };
 		526B23121CA75E9D009C7A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A34B3D1CCD97D500C43B21 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		52A34B3E1CCD97D500C43B21 /* MagicalRecord.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MagicalRecord.framework; path = Carthage/Build/iOS/MagicalRecord.framework; sourceTree = "<group>"; };
+		52A34B3F1CCD97D500C43B21 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		52A34B401CCD97D500C43B21 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		52A34B411CCD97D500C43B21 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +78,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A34B4A1CCD97D500C43B21 /* RxSwift.framework in Frameworks */,
+				52A34B481CCD97D500C43B21 /* RxCocoa.framework in Frameworks */,
+				52A34B441CCD97D500C43B21 /* MagicalRecord.framework in Frameworks */,
+				52A34B421CCD97D500C43B21 /* Alamofire.framework in Frameworks */,
+				52A34B461CCD97D500C43B21 /* RxBlocking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +99,11 @@
 		526B22EC1CA75E9C009C7A08 = {
 			isa = PBXGroup;
 			children = (
+				52A34B3D1CCD97D500C43B21 /* Alamofire.framework */,
+				52A34B3E1CCD97D500C43B21 /* MagicalRecord.framework */,
+				52A34B3F1CCD97D500C43B21 /* RxBlocking.framework */,
+				52A34B401CCD97D500C43B21 /* RxCocoa.framework */,
+				52A34B411CCD97D500C43B21 /* RxSwift.framework */,
 				526B22F71CA75E9C009C7A08 /* BeerUp */,
 				526B230F1CA75E9D009C7A08 /* BeerUpTests */,
 				526B22F61CA75E9C009C7A08 /* Products */,
@@ -109,6 +152,8 @@
 				526B22F11CA75E9C009C7A08 /* Sources */,
 				526B22F21CA75E9C009C7A08 /* Frameworks */,
 				526B22F31CA75E9C009C7A08 /* Resources */,
+				52A34B4C1CCD97D500C43B21 /* Embed Frameworks */,
+				52A34B4D1CCD980C00C43B21 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -195,6 +240,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52A34B4D1CCD980C00C43B21 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/MagicalRecord.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		526B22F11CA75E9C009C7A08 /* Sources */ = {
@@ -330,6 +395,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = BeerUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.whitemocha.BeerUp;
@@ -341,6 +410,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = BeerUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.whitemocha.BeerUp;
@@ -391,6 +464,7 @@
 				526B23171CA75E9D009C7A08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		526B23181CA75E9D009C7A08 /* Build configuration list for PBXNativeTarget "BeerUpTests" */ = {
 			isa = XCConfigurationList;
@@ -399,6 +473,7 @@
 				526B231A1CA75E9D009C7A08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
