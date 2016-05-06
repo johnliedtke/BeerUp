@@ -1,5 +1,5 @@
 # Core Data Wrapper 
-github "MagicalPanda/MagicalRecord"
+#github "MagicalPanda/MagicalRecord"
 
 # Reactive framework
 github "ReactiveX/RxSwift" ~> 2.0
