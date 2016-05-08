@@ -5,4 +5,4 @@
 github "ReactiveX/RxSwift" ~> 2.0
 
 # Networking
-github "Alamofire/Alamofire" ~> 3.3
+#github "Alamofire/Alamofire" ~> 3.3
